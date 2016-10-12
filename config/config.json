@@ -1,0 +1,7 @@
+{
+  "development": {
+    "database": "database_development",
+    "dialect": "sqlite",
+    "storage": "./db/student.db"
+  }
+}
