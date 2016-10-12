@@ -5,6 +5,7 @@ require('sequelize-isunique-validator')(Sequelize);
 
 module.exports = function(sequelize, DataTypes) {
   var Student = sequelize.define('Student', {
+    name: DataTypes.TEXT,
     age: {
         type: DataTypes.INTEGER,
         validate: {
